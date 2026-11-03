@@ -1,0 +1,12 @@
+{
+  "name": "genpark-personal-agent-ocular-corneal-hysteresis-biomechanics-ora-skill",
+  "version": "1.0.0",
+  "description": "Ocular Corneal Hysteresis Biomechanics (ORA) skill for non-contact dynamic applanation viscoelastic damping, corneal resistance factor, and corneal-compensated IOP estimation.",
+  "author": "Alpha-Park Inc.",
+  "license": "Apache-2.0",
+  "entrypoint": "mcp_server.py",
+  "tools": [
+    "compute_corneal_biomechanics",
+    "assess_bilateral_asymmetry"
+  ]
+}
